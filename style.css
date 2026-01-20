@@ -14,23 +14,6 @@
   text-underline-offset: 4px;
 }
 
-/*Стили контактов*/
-
-.address {
-  margin: 0;
-  padding: 0;
-  color: #000000;
-  font-family: Raleway;
-  font-size: 18px;
-  line-height: 24.3px;
-  font-weight: 400;
-  font-style: normal;
-  text-underline-offset: 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .header__menu {
   padding-top: -5px;
 }
@@ -63,13 +46,20 @@
   display: block;
   width: 136px;
   height: 105px;
-  margin-top: 1px;
 }
 
 .header__address {
+  max-width: 240px;
   justify-self: end;
-  width: 239px;
-  margin-top: 1px;
+  font-style: normal; 
+  padding-left: -1px;
+}
+
+.address {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  line-height: 24.3px;
 }
 
 /*Секция Header-Финал*/
@@ -77,7 +67,7 @@
 /*Секция Cover-начало*/
 
 .cover {
-  min-height: 757px;
+  min-height: 757px; 
   position: relative;
   color: white;
   background-image: url(../images/cover.jpg);
@@ -105,11 +95,11 @@
 }
 
 .cover__title {
-  text-transform: uppercase;
+  text-transform:uppercase;
   font-weight: Bold;
   font-family: Raleway;
   font-size: 100px;
-  line-height: 114.99999999999999%;
+  line-height: 114.99999999999999%; 
   letter-spacing: 30px;
 }
 
@@ -119,14 +109,14 @@
 
 .aligned-text_left {
   text-align: left;
-  margin-top: 2px;
-  margin-bottom: 21px;
+  margin-bottom: 23px;
 }
 
 .aligned-text_center {
   text-align: center;
   margin-bottom: 20px;
   margin-left: 30px;
+  
 }
 
 .aligned-text_right {
@@ -157,11 +147,11 @@
   font-family: Raleway;
   font-size: 22px;
   text-align: center;
-  color: #ffffff;
+  color:#FFFFFF;
   text-transform: uppercase;
   padding: 12px 32px 11px 31px;
   background-color: transparent;
-  border: 1px #ffffff solid;
+  border: 1px #FFFFFF solid;
 }
 
 /*Секция Cover-финал*/
@@ -169,10 +159,10 @@
 /*Секция Lots-начало*/
 
 .lots {
-  margin: 184px 24px 117px;
+  margin: 180px 24px 60px;
   height: 723px;
   width: 1052px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .lots__heading {
@@ -183,7 +173,7 @@
   line-height: 100%;
   color: #000000;
   text-transform: uppercase;
-  margin: 0 891px 23px 40px;
+  margin: 0 891px 24px 40px;
 }
 
 /*Список карточек*/
@@ -235,6 +225,7 @@
   font-size: 20px;
   font-weight: normal;
   line-height: 120%;
+
 }
 
 .lots_box_content {
@@ -268,26 +259,29 @@
 
 /*Секция Lots-финал*/
 
+
+
+
+
+
+
+
+
+
+
+
 /*Секция About-начало*/
 
 .about {
-  height: 595px;
-  display: grid;
-  grid-template-columns: 287px auto;
-  gap: 72px;
-  color: black;
-  margin: 60px 24px 180px;
+   color: brown;
+   margin: 60px 24px 180px;
 }
 
-.about__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #000000;
+.logo_about {
+  background-color: black;
   border-radius: 50%;
   width: 240px;
   height: 240px;
-  margin: 35px 0 320px 47px;
 }
 
 .logo_about_image {
@@ -295,86 +289,6 @@
   height: 114px;
 }
 
-.about__column {
-  margin: 133px 0 13px;
-}
-
-.about__title {
-  margin: 3px 351px 100px 0;
-  font-family: Raleway;
-  font-size: 40px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.about_text_content {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.about__text {
-  font-family: Raleway;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-/*Секция About-финал*/
-
-/*Секция footer-начало*/
-
 .footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  height: 180px;
+   color: brown;
 }
-
-.address_footer {
-  width: 264.57px;
-}
-
-.adress_footer_link {
-  margin-left: -1px;
-}
-
-.footer__menu {
-  width: 164px;
-}
-
-.footer__menu-link_active {
-  text-decoration: none;
-}
-
-.footer__menu-list {
-  list-style: none;
-  color: #000000;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 400;
-  text-transform: lowercase;
-  text-underline-offset: 4px;
-}
-
-.footer__menu-list-item {
-  text-align: center;
-}
-
-.footer__social-list {
-  width: 240px;
-  height: 48px;
-  display: flex;
-  gap: 48px;
-  list-style: none;
-  margin-left: 25px;
-}
-
-.footer__social-list-item {
-  border: 1px #000000;
-  border-radius: 50%;
-  height: 48px;
-  width: 48px;
-}
-
-/*Секция footer-финал*/
