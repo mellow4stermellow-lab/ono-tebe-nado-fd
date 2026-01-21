@@ -28,7 +28,7 @@
         <img
           class="header_logo_image"
           src="./images/logo-black.svg"
-          alt="Оно тебе надо"
+          alt="Логотип с надписью 'Оно тебе надо'"
           title="Оно тебе надо"
         />
       </a>
@@ -42,21 +42,17 @@
     <main>
       <section class="cover">
         <div class="overlay"></div>
-        <div class="over_overlay">
-          <h1 class="cover__title aligned-text">
-            <span class="aligned-text_left letter-spacing-extended">Оно</span>
-            <span class="aligned-text_center letter-spacing-extended"
-              >тебе</span
-            >
-            <span class="aligned-text_right letter-spacing-extended">надо</span>
-          </h1>
-          <div class="cover__description">
-            <h2 class="cover__description-text">
-              <span class="cover_text_left">Аукцион вещей, </span>
-              <span class="cover_text_center">в которые никто не верил</span>
-            </h2>
-            <button class="bet-button">Сделать ставку</button>
-          </div>
+        <h1 class="cover__title aligned-text">
+          <span class="aligned-text_left letter-spacing-extended">Оно</span>
+          <span class="aligned-text_center letter-spacing-extended">тебе</span>
+          <span class="aligned-text_right letter-spacing-extended">надо</span>
+        </h1>
+        <div class="cover__description">
+          <h2 class="cover__description-text">
+            <span class="cover_text_left">Аукцион вещей, </span>
+            <span class="cover_text_center">в которые никто не верил</span>
+          </h2>
+          <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
 
@@ -65,57 +61,51 @@
         <ul class="lots__card-list">
           <li class="card_type_film lots__card-list-item">
             <a class="card-link">
-              <div class="over_overlay lots_box_content">
+              <article class="card">
                 <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
-                <article class="card">
-                  <p class="card__text">
-                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                    ставка, если бы вы не знали, что режиссёр — Пол Томас
-                    Андерсон?
-                  </p>
-                </article>
-              </div>
+                <p class="card__text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </article>
               <div class="overlay"></div>
             </a>
           </li>
           <li class="card_type_book lots__card-list-item">
             <a class="card-link">
-              <div class="over_overlay lots_box_content">
+              <article class="card">
                 <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
-                <article class="card">
-                  <p class="card__text">
-                    Объёмом почти в тысячу страниц. Иногда без знаков препинания
-                    и с переходами на древнеанглийский. В ней одновременно
-                    рассказывается о 16 июня 1904 года и об истории литературы,
-                    начиная с античных времён. И это всё накладывается на
-                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                    Джеймса Джойса?
-                  </p>
-                </article>
-              </div>
+                <p class="card__text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </article>
               <div class="overlay"></div>
             </a>
           </li>
 
           <li class="card_type_picture lots__card-list-item">
             <a class="card-link">
-              <div class="over_overlay lots_box_content">
+              <article class="card">
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
-                <article class="card">
-                  <p class="card__text">
-                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                    котиков... Сколько бы вы на такое поставили, если бы не
-                    знали, что это — одна из революционных работ Кандинского?
-                  </p>
-                </article>
-              </div>
+                <p class="card__text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков... Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+              </article>
               <div class="overlay"></div>
             </a>
           </li>
@@ -134,18 +124,17 @@
         <div class="about__column">
           <h3 class="about__title">Об аукционе</h3>
           <div class="about_text_content">
-            <p class="about__text">
+            <p class="about__text about_text_first_paragraf">
               Здесь вы не встретите очередное пафосное собрание невероятно
-              дорогого антиквариата. Наши лоты вообще не должны были попасть
-              <br />ни на один аукцион. Потому что кому нужен дневник
-              девочки-подростка или картина, которую может нарисовать даже
-              ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+              дорогого антиквариата. Наши лоты вообще не должны были попасть ни
+              на один аукцион. Потому что кому нужен дневник девочки-подростка
+              или картина, которую может нарисовать даже ребёнок? Кому нужны все
+              эти странные вещи, созданные любителями?
             </p>
-            <p class="about__text">
+            <p class="about__text about_text_second_paragraf">
               Слишком сложные или, наоборот, слишком простые. Опережающие своё
               время. В пух и прах растерзанные критиками. Непринятые и
               непонятые. Когда-то они казались просто неудачными. Но, несмотря
-              <br />
               на критику, кажущуюся простоту или сложность, сейчас без этих
               лотов невозможно представить современную культуру. Когда в эти
               вещи не верил никто, продолжали верить их создатели. И сейчас эти
@@ -158,12 +147,8 @@
 
     <footer class="footer">
       <address class="address address_footer">
-        <a class="adress_footer_link" href="tel:+99995555555"
-          >+9 999 555 5555</a
-        >
-        <a class="adress_footer_link" href="mailto:info@sobaka.ge"
-          >info@sobaka.ge</a
-        >
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         наб. Принсенграхт 263-265, Амстердам
       </address>
       <nav class="footer__menu">
