@@ -3,8 +3,6 @@
 /* Секия Header - начало*/
 
 .header {
-  /*height: 293px; - отключено*/
-
   padding: 92px 50px 96px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -32,10 +30,6 @@
   align-items: flex-start;
 }
 
-/*.header__menu {
-  padding-top: -5px;
-} - Отключено = не работает. Паддинг не может имет отрицательных значений*/
-
 .header__links-list {
   display: flex;
   gap: 32px;
@@ -55,10 +49,6 @@
 .header__link_active {
   text-decoration: none;
 }
-
-/*.links_list_right {
-  padding-left: 3px;
-}*/
 
 .header_logo {
   display: block;
@@ -84,28 +74,17 @@
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
-  padding: 165px 50px 50px;
+  padding: 165px 20px 50px 50px;
   z-index: 1;
 }
 
 .overlay {
   position: absolute;
-
-  /*height: 100%;
-  width: 100%; - Код не сработал. Overlay двигался за паддингом*/
-
   inset: 0;
   opacity: 60%;
   background-color: black;
   z-index: -1;
 }
-
-/*Надстройка для всех оверлеев - отключена, изменена механика. Теперь работает без дополнительного класса. 
-
-.over_overlay {
-  position: relative;
-  z-index: 1;
-}*/
 
 .cover__title {
   text-transform: uppercase;
@@ -122,28 +101,17 @@
 
 .aligned-text_left {
   text-align: left;
-
-  /*  margin-top: 2px;
-  margin-bottom: 21px; - старый вариант = отключен*/
 }
 
 .aligned-text_center {
   text-align: center;
-  padding-left: 30px;
-  margin-top: 20px;
+  margin-top: 21px;
 
-  /* margin-bottom: 20px;
-  margin-left: 30px; - старый вариант = отключен*/
 }
 
 .aligned-text_right {
   text-align: right;
   margin-top: 21px;
-  margin-left: 614px;
-
-  /*margin-left: 10px;*/
-
-  /*margin-right: -31px; - старый вариант = отключен*/
 }
 
 .cover__description-text {
@@ -182,24 +150,18 @@
 
 .lots {
   margin: 184px 24px 119px;
-
-  /*height: 723px; - отключено*/
-
   width: 1052px;
   color: #ffffff;
 }
 
 .lots__heading {
   font-family: "Raleway", sans-serif;
-
-  /*height: 47px; - отключено, альтернатива: скорректирован внешний отступ*/
-
   font-size: 40px;
   font-weight: 700;
   line-height: 100%;
   color: #000000;
   text-transform: uppercase;
-  margin: 0 891px 30px 40px;
+  margin: 0 0 30px 40px;
 }
 
 /*Список карточек*/
@@ -253,7 +215,6 @@
 }
 
 .card__text {
-  /*height: 100%;*/
   margin: 0 40px 48px;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
@@ -288,8 +249,6 @@
 /*Секция About-начало*/
 
 .about {
-  /*height: 595px; - отключено*/
-
   display: grid;
   grid-template-columns: 287px auto;
   gap: 72px;
@@ -347,8 +306,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 0 50px 82px;
-
-  /*height: 180px; - откючено*/
 }
 
 .address_footer {
@@ -382,9 +339,6 @@
 .footer__social-list {
   justify-self: end;
   width: 240px;
-
-  /*height: 48px; - отключено*/
-
   display: flex;
   gap: 48px;
   list-style: none;
